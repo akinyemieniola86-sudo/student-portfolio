@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Academic planner to manage tasks">
+  <title>Academic Planner | Eniola Akinyemi</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <span class="logo">Eniola A.</span>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="planner.html" class="active">Planner</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Academic Planner</h1>
+      <p>Add your assignments and study tasks, tick them off, or delete them.</p>
+    </section>
+
+    <section>
+      <form id="task-form">
+        <label for="task-input">New Task</label>
+        <input type="text" id="task-input" placeholder="e.g. Finish COS 106 term project">
+        <p class="error" id="task-error"></p>
+        <button type="submit">Add Task</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>My Tasks</h2>
+      <p id="task-summary"></p>
+      <ul id="task-list" class="task-list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Akinyemi Eniola Damilola. All rights reserved.</p>
+  </footer>
+
+  <script src="js/planner.js"></script>
+</body>
+</html>
