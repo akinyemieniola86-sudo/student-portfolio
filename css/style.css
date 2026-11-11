@@ -51,7 +51,7 @@ h1, h2 { color: var(--primary); margin-bottom: 0.8rem; }
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   animation: fadeIn 1s ease;
 }
-.hero img { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; object-position: top; }
+.hero img { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; object-position: middle; }
 
 /* Cards grid (projects) */
 .grid {
